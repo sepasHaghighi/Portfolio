@@ -1,0 +1,43 @@
+export const projectData = [
+    {
+        slug: "project-1",
+        title: "Lineout",
+        img: "src/assets/Works/Lineout/lineout.png",
+        pdf:"src/assets/Works/Lineout/Lineout.pdf",
+        github: "#",
+        liveDemo: "#",
+        figma: "#",
+        description: "A brief summary of the project.",
+    },
+    {
+        slug: "project-2",
+        title: "Sheypoor",
+        img: "src/assets/Works/Sheypoor/Sheypoor.jpeg",
+        pdf:"src/assets/Works/Sheypoor/Sheypoor.pdf",
+        github: "#",
+        liveDemo: "#",
+        figma: "#",
+        description: "A brief summary of the project.",
+    },
+    {
+        slug: "project-3",
+        title: "Pizzamize",
+        img: "src/assets/Works/Pizzamize/pizzamize.jpg",
+        pdf:"src/assets/Works/Pizzamize/Pizzamize.pdf",
+        github: "#",
+        liveDemo: "#",
+        figma: "#",
+        description: "A brief summary of the project.",
+    },
+    {
+        slug: "project-4",
+        title: "StoreHub",
+        img: "src/assets/Works/StoreHub/StoreHub.jpg",
+        pdf:"src/assets/Works/StoreHub/StoreHub.pdf",
+        github: "#",
+        liveDemo: "#",
+        figma: "#",
+        description: "A brief summary of the project.",
+    },
+    
+]
