@@ -1,39 +1,48 @@
+import LineoutImage from "../../../src/assets/Works/Lineout/lineout.png"
+import LineoutPDF from "../../../src/assets/Works/Lineout/Lineout.pdf"
+import SheypoorImage from "../../../src/assets/Works/Sheypoor/Sheypoor.jpeg"
+import SheypoorPDF from "../../../src/assets/Works/Sheypoor/Sheypoor.pdf"
+import PizzamizeImage from "../../../src/assets/Works/Pizzamize/Pizzamize.jpg"
+import PizzamizePDF from "../../../src/assets/Works/Pizzamize/Pizzamize.pdf"
+import StoreHubImage from "../../../src/assets/Works/StoreHub/StoreHub.jpg"
+import StoreHubPDF from "../../../src/assets/Works/StoreHub/StoreHub.pdf"
+
 export const projectData = [
     {
-        slug: "project-1",
+        id: "project-1",
         title: "Lineout",
-        img: "src/assets/Works/Lineout/lineout.png",
-        pdf:"src/assets/Works/Lineout/Lineout.pdf",
+        img: LineoutImage,
+        pdf: LineoutPDF,
         github: "#",
         liveDemo: "#",
         figma: "#",
         description: "A brief summary of the project.",
     },
     {
-        slug: "project-2",
+        id: "project-2",
         title: "Sheypoor",
-        img: "src/assets/Works/Sheypoor/Sheypoor.jpeg",
-        pdf:"src/assets/Works/Sheypoor/Sheypoor.pdf",
+        img: SheypoorImage,
+        pdf: SheypoorPDF,
         github: "#",
         liveDemo: "#",
         figma: "#",
         description: "A brief summary of the project.",
     },
     {
-        slug: "project-3",
+        id: "project-3",
         title: "Pizzamize",
-        img: "src/assets/Works/Pizzamize/pizzamize.jpg",
-        pdf:"src/assets/Works/Pizzamize/Pizzamize.pdf",
+        img: PizzamizeImage,
+        pdf: PizzamizePDF,
         github: "#",
         liveDemo: "#",
         figma: "#",
         description: "A brief summary of the project.",
     },
     {
-        slug: "project-4",
+        id: "project-4",
         title: "StoreHub",
-        img: "src/assets/Works/StoreHub/StoreHub.jpg",
-        pdf:"src/assets/Works/StoreHub/StoreHub.pdf",
+        img: StoreHubImage,
+        pdf: StoreHubPDF,
         github: "#",
         liveDemo: "#",
         figma: "#",
