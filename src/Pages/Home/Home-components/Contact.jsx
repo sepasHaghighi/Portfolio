@@ -1,3 +1,5 @@
+import emailIcon from '@/assets/email.png'
+import linkedinIcon from '@/assets/linkedin.png'
 function ContactItem(props) {
     return (
         <div className='w-[100%] flex flex-row align-baseline p-2 gap-1'>
@@ -12,14 +14,14 @@ function ContactItem(props) {
 const contactItems = [
     {
         id: 1,
-        img: './src/assets/email.png',
+        img: emailIcon,
         alt: 'Email',
         link: 'mailto:Haghighi.sepas@gmail.com',
         linkName: 'Haghighi.sepas@gmail.com'
     },
     {
         id: 2,
-        img: './src/assets/linkedin.png',
+        img: linkedinIcon,
         alt: 'LinkedIn',
         link: 'https://www.linkedin.com/in/sepas-haghighi/',
         linkName: 'LinkedIn'

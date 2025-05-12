@@ -1,4 +1,8 @@
 import MyPDFViewer from "./project-components/PDFViewer"
+import emailIcon from '@/assets/email.png'
+import linkedinIcon from '@/assets/linkedin.png'
+import figmaIcon from '@/assets/figma.png'
+import githubIcon from '@/assets/github.png'
 
 export default function ProjectTemplate(props) {
     return (
@@ -14,15 +18,15 @@ export default function ProjectTemplate(props) {
                 </section>
                 <section id="web-title"><h3 className="font-light">Portfolio - Sepas Haghighi</h3></section>
                 <section id="contact" className="flex flex-row gap-4">
-                    <a href="mailto:Haghighi.sepas@gmail.com" target="_blank"><img src="src/assets/email.png" alt="email" /></a>
-                    <a href="https://www.linkedin.com/in/sepas-haghighi/" target="_blank"><img src="src/assets/linkedin.png" alt="linkedin" /></a>
+                    <a href="mailto:Haghighi.sepas@gmail.com" target="_blank"><img src={emailIcon} alt="email" /></a>
+                    <a href="https://www.linkedin.com/in/sepas-haghighi/" target="_blank"><img src={linkedinIcon} alt="linkedin" /></a>
                 </section>
             </nav>
             <div id="project-head" className="flex flex-row justify-between w-[80vw] sticky top-28 sm:w-[60vw]">
                 <h3 id="project-title" className="text-left font-normal">{props.project.title}</h3>
                 <section id="project-links" className="flex flex-row gap-4 sm:gap-8 items-center">
-                    {props.project.figma !== "" && <a href={props.project.figma} id="figma-link"><img src="src/assets/figma.png" alt="Figma" className="min-w-5 sm:w-10" /></a>}
-                    {props.project.github !== "" && <a href={props.project.github} id="github-link"><img src="src/assets/github.png" alt="Github" className="min-w-5 sm:w-5" /></a>}
+                    {props.project.figma !== "" && <a href={props.project.figma} id="figma-link"><img src={figmaIcon} alt="Figma" className="min-w-5 sm:w-10" /></a>}
+                    {props.project.github !== "" && <a href={props.project.github} id="github-link"><img src={githubIcon} alt="Github" className="min-w-5 sm:w-5" /></a>}
                     {props.project.liveDemo !== "" && <a href={props.project.liveDemo} id="liveDemo-link" className="whitespace-nowrap">Live Demo</a>}
                 </section>
             </div>

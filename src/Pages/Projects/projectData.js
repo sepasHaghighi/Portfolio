@@ -1,11 +1,11 @@
 import LineoutImage from "../../assets/Works/Lineout/lineout.png"
-import LineoutPDF from "../../assets/Works/Lineout/Lineout.pdf"
+import LineoutPDF from "@/assets/Works/Lineout/Lineout.pdf"
 import SheypoorImage from "../../assets/Works/Sheypoor/Sheypoor.jpeg"
-import SheypoorPDF from "../../assets/Works/Sheypoor/Sheypoor.pdf"
+import SheypoorPDF from "@/assets/Works/Sheypoor/Sheypoor.pdf"
 import PizzamizeImage from "../../assets/Works/Pizzamize/pizzamize.jpg"
-import PizzamizePDF from "../../assets/Works/Pizzamize/Pizzamize.pdf"
+import PizzamizePDF from "@/assets/Works/Pizzamize/Pizzamize.pdf"
 import StoreHubImage from "../../assets/Works/StoreHub/StoreHub.jpg"
-import StoreHubPDF from "../../assets/Works/StoreHub/StoreHub.pdf"
+import StoreHubPDF from "@/assets/Works/StoreHub/StoreHub.pdf"
 
 export const projectData = [
     {
