@@ -22,7 +22,7 @@ export default function ProjectTemplate(props) {
                     <a href="https://www.linkedin.com/in/sepas-haghighi/" target="_blank"><img src={linkedinIcon} alt="linkedin" /></a>
                 </section>
             </nav>
-            <div id="project-head" className="flex flex-row justify-between w-[80vw] sticky top-28 sm:w-[60vw]">
+            <div id="project-head" className="flex flex-row justify-between w-[80vw] sticky top-28 sm:w-[95vw]">
                 <h3 id="project-title" className="text-left font-normal">{props.project.title}</h3>
                 <section id="project-links" className="flex flex-row gap-4 sm:gap-8 items-center">
                     {props.project.figma !== "" && <a href={props.project.figma} id="figma-link"><img src={figmaIcon} alt="Figma" className="min-w-5 sm:w-10" /></a>}

@@ -7,7 +7,7 @@ export default function MyPDFViewer (props) {
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
   return (
-    <div className='pt-10 w-[100vw] h-[84vh] overflow-clip sm:w-[60vw]'>
+    <div className='pt-10 w-[100vw] h-[84vh] overflow-clip sm:w-[95vw]'>
       <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
         <Viewer fileUrl={props.pdfLink} plugins={[defaultLayoutPluginInstance]}/>
       </Worker>

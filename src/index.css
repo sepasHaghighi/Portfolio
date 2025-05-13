@@ -21,7 +21,7 @@ html {
   justify-content: flex-start;
 }
 .nav, .hero, .works, .about, .contact{
-  max-width: 560px;
+  max-width: 480px;
 }
 .material-symbols-rounded {
   font-size: 40px;
