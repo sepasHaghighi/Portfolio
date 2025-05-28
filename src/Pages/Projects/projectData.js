@@ -1,4 +1,4 @@
-import LineoutImage from "../../assets/Works/Lineout/lineout.png"
+import LineoutImage from "../../assets/Works/Lineout/lineout.jpg"
 import LineoutPDF from "@/assets/Works/Lineout/Lineout.pdf"
 import SheypoorImage from "../../assets/Works/Sheypoor/Sheypoor.jpeg"
 import SheypoorPDF from "@/assets/Works/Sheypoor/Sheypoor.pdf"

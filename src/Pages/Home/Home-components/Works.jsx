@@ -5,7 +5,7 @@ import { projectData } from "../../Projects/projectData"
 function Tile(props) {
     return (
         <div className='tile w-auto rounded-lg transition-transform duration-300 hover:scale-105'>
-            <a href={`/${props.title}`}><img className='tile-img rounded-lg w-full h-45' src={props.img} alt='tile' /></a>
+            <a href={`/${props.title}`}><img className='tile-img rounded-xl w-full h-60 object-cover' src={props.img} alt='tile' /></a>
         </div>
     )
 }
