@@ -6,6 +6,9 @@ import PizzamizeImage from "../../assets/Works/Pizzamize/pizzamize.jpg"
 import PizzamizePDF from "@/assets/Works/Pizzamize/Pizzamize.pdf"
 import StoreHubImage from "../../assets/Works/StoreHub/StoreHub.jpg"
 import StoreHubPDF from "@/assets/Works/StoreHub/StoreHub.pdf"
+import ShifoLogo from "@/assets/ShifoLogo.png"
+import PalmerBetLogo from "@/assets/PalmerBetLogo.png"
+import TeamyarLogo from "@/assets/TeamyarLogo.png"
 
 export const projectData = [
     {
@@ -16,7 +19,10 @@ export const projectData = [
         github: "https://github.com/sepasHaghighi/Lineout",
         liveDemo: "https://sepashaghighi.github.io/Lineout/",
         figma: "#",
-        description: "A brief summary of the project.",
+        description: `A virtual queueing solution that lets users join lines remotely, track wait times in real time, and receive notifications when it's their turn.`,
+        organization: "Shifo Foundation",
+        organizationLogo: ShifoLogo,
+        skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'Visual & Interaction Design']
     },
     {
         id: "project-2",
@@ -26,7 +32,10 @@ export const projectData = [
         github: "#",
         liveDemo: "#",
         figma: "#",
-        description: "A brief summary of the project.",
+        description: `This is a brief description of the project. This is a brief description of the project.`,
+        organization: "Shifo Foundation",
+        organizationLogo: PalmerBetLogo,
+        skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'Visual & Interaction Design']
     },
     {
         id: "project-3",
@@ -36,7 +45,10 @@ export const projectData = [
         github: "#",
         liveDemo: "#",
         figma: "#",
-        description: "A brief summary of the project.",
+        description: `This is a brief description of the project. This is a brief description of the project.`,
+        organization: "Shifo",
+        organizationLogo: ShifoLogo,
+        skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'Visual & Interaction Design']
     },
     {
         id: "project-4",
@@ -46,7 +58,10 @@ export const projectData = [
         github: "#",
         liveDemo: "#",
         figma: "#",
-        description: "A brief summary of the project.",
+        description: `This is a brief description of the project. This is a brief description of the project.`,
+        organization: "Shifo",
+        organizationLogo: TeamyarLogo,
+        skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'Visual & Interaction Design']
     },
     
 ]

@@ -71,6 +71,10 @@ a:hover{
   opacity: 0.8; /* slightly fade */
 }
 
+div.tile{
+  box-shadow: rgba(99, 99, 99, 0.15) 0px 1px 4px 0px;
+}
+
 @media (max-width: 675px) {
   h1 {
     font-size: 50px;
