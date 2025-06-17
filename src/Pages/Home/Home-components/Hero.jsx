@@ -12,7 +12,7 @@ export default function Hero() {
                     A UX engineer.
                 </h1>
                 <p>
-                    That’s someone who can design and code.
+                    Yes, I can design and code.
                 </p>
             </div>
             <a href="#work" className='arrow'><span className="material-symbols-rounded">
