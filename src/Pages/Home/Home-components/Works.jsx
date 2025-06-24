@@ -9,13 +9,13 @@ function Tile(props) {
             <div className='sm:hidden tile w-full h-[20.1875remß] p-4 bg-[#ffffff] rounded-2xl flex flex-col gap-2'>
                 <section className="flex flex-row items-center justify-between">
                     <h5 className="text-2xl font-medium">{props.title}</h5>
-                    <section className="flex flex-row gap-2 items-center">
+                    {props.organization!='' && <section className="flex flex-row gap-2 items-center">
                         <h6 className="text-lg">Org:</h6>
                         <section className="flex flex-row gap-1 items-center">
                             <img src={props.organizationLogo} alt="organization logo" className="w-6 h-6" />
                             <span className="text-md">{props.organization}</span>
                         </section>
-                    </section>
+                    </section>}
                 </section>
                 <section className="flex flex-col gap-2">
                     <img className='tile-img rounded-xl w-full h-auto object-cover' src={props.img} alt='tile' />
@@ -32,13 +32,13 @@ function Tile(props) {
             <div className='hidden tile sm:flex sm:w-[30rem] h-auto p-4 bg-[#ffffff] rounded-2xl flex-col sm:gap-4'>
                 <section className="flex flex-row items-center justify-between">
                     <h5 className="text-2xl font-medium">{props.title}</h5>
-                    <section className="flex flex-row gap-2 items-center">
+                    {props.organization!='' && <section className="flex flex-row gap-2 items-center">
                         <h6 className="text-lg">Organization:</h6>
                         <section className="flex flex-row gap-1 items-center">
                             <img src={props.organizationLogo} alt="organization logo" className="w-6 h-6" />
                             <span className="text-md">{props.organization}</span>
                         </section>
-                    </section>
+                    </section>}
                 </section>
                 <section className="flex flex-row gap-2">
                     <img className='tile-img rounded-xl w-[11.25rem] h-[13.4375rem] object-cover' src={props.img} alt='tile' />
@@ -63,7 +63,7 @@ const projectTiles = projectData.map((project) => {
 // Component to create the Works section
 export default function Works() {
     return (
-        <div className='works w-[100%] h-[90%] flex flex-col  justify-center gap-[10vh]' id="work">
+        <div className='works w-[100%] h-[90%] pt-20 flex flex-col  justify-center gap-[10vh]' id="work">
             <section className="flex flex-col gap-0">
                 <h2>WORK SHOWCASE.</h2>
                 <p>Here are some of the projects I've worked on.</p>

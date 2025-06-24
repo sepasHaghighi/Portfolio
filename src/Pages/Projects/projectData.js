@@ -20,9 +20,9 @@ export const projectData = [
         liveDemo: "https://sepashaghighi.github.io/Lineout/",
         figma: "#",
         description: `A virtual queueing solution that lets users join lines remotely, track wait times in real time, and receive notifications when it's their turn.`,
-        organization: "Shifo",
-        organizationLogo: ShifoLogo,
-        skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'Visual & Interaction Design']
+        organization: "",
+        organizationLogo: null,
+        skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'UI Design', 'React', 'Tailwind']
     },
     {
         id: "project-2",
@@ -33,8 +33,8 @@ export const projectData = [
         liveDemo: "#",
         figma: "#",
         description: `This is a brief description of the project. This is a brief description of the project.`,
-        organization: "Shifo",
-        organizationLogo: PalmerBetLogo,
+        organization: "",
+        organizationLogo: null,
         skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'Visual & Interaction Design']
     },
     {
@@ -46,8 +46,8 @@ export const projectData = [
         liveDemo: "#",
         figma: "#",
         description: `This is a brief description of the project. This is a brief description of the project.`,
-        organization: "Shifo",
-        organizationLogo: ShifoLogo,
+        organization: "",
+        organizationLogo: null,
         skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'Visual & Interaction Design']
     },
     {
@@ -59,8 +59,8 @@ export const projectData = [
         liveDemo: "#",
         figma: "#",
         description: `This is a brief description of the project. This is a brief description of the project.`,
-        organization: "Shifo",
-        organizationLogo: TeamyarLogo,
+        organization: "",
+        organizationLogo: null,
         skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'Visual & Interaction Design']
     },
     
