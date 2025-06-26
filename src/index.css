@@ -82,9 +82,24 @@ div.tile{
   color:#666
 }
 
+.project-section-title{
+  font-size: 3rem;
+  width: 100%;
+  color:#7C7C7C;
+  font-weight: 200;
+}
+.pizzamize{
+  text-decoration: underline;
+  text-decoration-color: #D15C4C;
+}
+
 .project-description{
   font-size: 1.25rem;
   color: #777;
+}
+.project-description-white{
+  font-size: 1.25rem;
+  color: #fff;
 }
 
 .user-quotes{
