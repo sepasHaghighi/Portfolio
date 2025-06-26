@@ -26,7 +26,7 @@ export default function Lineout(props) {
     return (
         <>
             {/* Header */}
-            <ProjectHeader/>
+            <ProjectHeader />
             {/* Title bar with Figma, Github, live demo links */}
             <div id="project-head" className="flex flex-row justify-between w-[100vw] px-4 sticky py-4 top-22 bg-white border-t border-t-gray-200 sm:w-[100vw] lg:px-48 shadow">
                 <h3 id="project-title" className="text-left font-normal">Lineout</h3>
@@ -140,27 +140,14 @@ export default function Lineout(props) {
                 {/* Main functions */}
                 <section className='flex flex-col items-center gap-4 sm:gap-6 w-[80vw] bg-gray-100 rounded-2xl p-4'>
                     <h3 className='project-subtitle'>Main functions</h3>
-                    <section className='w-full flex flex-row gap-4 items-center'>
-                        <img src='' alt="" className='w-[8rem]' />
-                        <p className='project-description'>Virtual queueing to Eliminate waiting lines.</p>
-                    </section>
-                    <section className='w-full flex flex-row gap-4 items-center'>
-                        <img src='' alt="" className='w-[8rem]' />
-                        <p className='project-description'>Scoring system to enable users rate the service that they received</p>
-                    </section>
-                    <section className='w-full flex flex-row gap-4 items-center'>
-                        <img src='' alt="" className='w-[8rem]' />
-                        <p className='project-description'>App suggestion area to advertise useful apps so that more
-                            things could be done online.</p>
-                    </section>
-                    <section className='w-full flex flex-row gap-4 items-center'>
-                        <img src='' alt="" className='w-[8rem]' />
-                        <p className='project-description'>App suggestion area to suggest useful apps while waiting.</p>
-                    </section>
-                    <section className='w-full flex flex-row gap-4 items-center'>
-                        <img src='' alt="" className='w-[8rem]' />
-                        <p className='project-description'>Favorites section to save the desired services</p>
-                    </section>
+                    <p className='project-description'>
+                        <li>Virtual queueing to Eliminate waiting lines.</li>
+                        <li>Scoring system to enable users rate the service that they received</li>
+                        <li>App suggestion area to advertise useful apps so that more
+                            things could be done online.</li>
+                        <li>App suggestion area to suggest useful apps while waiting.</li>
+                        <li>Favorites section to save the desired services</li>
+                    </p>
                 </section>
                 {/* Content map */}
                 <section className='flex flex-col items-center gap-4 sm:gap-6 w-[80vw] bg-white'>

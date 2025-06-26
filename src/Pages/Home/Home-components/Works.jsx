@@ -42,11 +42,13 @@ function Tile(props) {
                 </section>
                 <section className="flex flex-row gap-2">
                     <img className='tile-img rounded-xl w-[11.25rem] h-[13.4375rem] object-cover' src={props.img} alt='tile' />
-                    <section className="flex flex-col items-start gap-1 bg-[#F5F5F9] rounded-xl p-2 w-[16.25rem] h-[13.4375rem]">
+                    <section className="flex flex-col items-start justify-between bg-[#F5F5F9] rounded-xl p-2 w-[16.25rem] h-[13.4375rem]">
                         <span className="text-sm text-left">{props.description}</span>
+                        <section className="flex flex-col gap-1">
                         <h5 className="text-md text-left font-bold">what I did:</h5>
                         <section className="flex flex-row gap-2 flex-wrap">
                             {props.skills.map(skill => <span className='bg-[#E5E5EA] text-[#4F4F4F] text-sm py-0.5 px-1 rounded-md' key={skill}>{skill}</span>)}
+                        </section>
                         </section>
                     </section>
                 </section>

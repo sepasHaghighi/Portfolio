@@ -5,9 +5,10 @@ import ProjectTemplate from './Pages/Projects/ProjectTemplate'
 import Lineout from './Pages/Projects/Lineout';
 import Pizzamize from './Pages/Projects/Pizzamize';
 
-// const routes = projectData.map(project => {
-//     return <Route path={`/${project.title}`} element= {<ProjectTemplate project={project} />} />
-// })
+const routes = projectData.map(project => {
+    if(project.title=="Sheypoor" || project.title=="StoreHub")
+    return <Route path={`/${project.title}`} element= {<ProjectTemplate project={project} />} />
+})
 
 export default function App() {
     return (
@@ -15,7 +16,7 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/lineout" element={<Lineout />} />
             <Route path="/pizzamize" element={<Pizzamize />} />
-            {/* {routes} */}
+            {routes}
         </Routes>
     )
 }
