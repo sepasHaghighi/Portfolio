@@ -11,7 +11,7 @@ import persona2 from "@/assets/Works/Pizzamize/persona-2.png"
 import persona3 from "@/assets/Works/Pizzamize/persona-3.png"
 import informationArchitecture from "@/assets/Works/Pizzamize/Information-architecture-Pizzamize.png"
 import treeJackTest from "@/assets/Works/Pizzamize/Treejack-test.png"
-import wireframePizzamize from "@/assets/Works/Pizzamize/wireframe-pizzamize.png"
+import wireframePizzamize from "@/assets/Works/Pizzamize/Wireframe-pizzamize.png"
 import hifiPrototype from "@/assets/Works/Pizzamize/Hifi-prototype.png"
 export default function Pizzamize() {
     return (
