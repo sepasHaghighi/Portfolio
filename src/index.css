@@ -93,12 +93,17 @@ div.tile{
   text-decoration-color: #D15C4C;
 }
 
+.shifo{
+  text-decoration: underline;
+  text-decoration-color: #D15C4C;
+}
+
 .project-description{
   font-size: 1.25rem;
   color: #777;
 }
 .project-description-white{
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: #fff;
 }
 

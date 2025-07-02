@@ -7,10 +7,25 @@ import PizzamizePDF from "@/assets/Works/Pizzamize/Pizzamize.pdf"
 import StoreHubImage from "../../assets/Works/StoreHub/StoreHub.jpg"
 import StoreHubPDF from "@/assets/Works/StoreHub/StoreHub.pdf"
 import ShifoLogo from "@/assets/ShifoLogo.png"
+import ShifoImage from "@/assets/Works/ShifoWebsite/ShifoImg.jpg"
 import PalmerBetLogo from "@/assets/PalmerBetLogo.png"
 import TeamyarLogo from "@/assets/TeamyarLogo.png"
 
 export const projectData = [
+    {
+        id: "project-0",
+        title: "Shifo website",
+        img: ShifoImage,
+        pdf: null,
+        github: "",
+        liveDemo: "https://www.shifo.org/",
+        figma: "#",
+        description: "Website showcasing Shifo Foundation’s healthcare digitalization solutions, designed and built in Webflow.",
+        organization: "Shifo",
+        organizationLogo: ShifoLogo,
+        skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'UI Design', 'Webflow']
+   
+    },
     {
         id: "project-1",
         title: "Lineout",
