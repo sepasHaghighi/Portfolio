@@ -23,7 +23,7 @@ function Tile(props) {
                         <span className="text-sm text-left">{props.description}</span>
                     </section>
                 </section>
-                <h5 className="text-md text-left font-bold">what I did:</h5>
+                <h5 className="text-md text-left font-bold">What I did:</h5>
                 <section className="flex flex-row gap-2 flex-wrap">
                     {props.skills.map(skill => <span className='bg-[#E5E5EA] text-[#4F4F4F] text-sm py-0.5 px-1 rounded-md' key={skill}>{skill}</span>)}
                 </section>

@@ -20,7 +20,7 @@ export default function ShifoWebsite() {
             <div id="project-head" className="flex flex-row justify-between w-[100vw] px-4 sticky py-4 top-22 bg-white border-t border-t-gray-200 sm:w-[100vw] lg:px-48 shadow">
                 <h3 id="project-title" className="text-left font-normal">Shifo Foundation website</h3>
                 <section id="project-links" className="flex flex-row gap-4 sm:gap-8 items-center">
-                    <a href='#' target="blank" id="figma-link"><img src={figmaIcon} alt="Figma" className="min-w-5 sm:w-10" /></a>
+                    <a href='https://www.figma.com/design/f2rp7kgyMO9B49gH3ErQKv/Website-and-Annual-Report?node-id=1404-3361&t=dYjE9zkkDqJYFPvm-1' target="blank" id="figma-link"><img src={figmaIcon} alt="Figma" className="min-w-5 sm:w-10" /></a>
                     <a href='https://www.shifo.org/' target="blank" id="liveDemo-link" className="whitespace-nowrap">Live website</a>
                 </section>
             </div>
