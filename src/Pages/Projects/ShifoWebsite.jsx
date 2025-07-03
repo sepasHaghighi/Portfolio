@@ -6,7 +6,7 @@ import figmaIcon from "@/assets/figma.png"
 import errorIcon from "@/assets/Works/ShifoWebsite/Error.svg"
 import successIcon from "@/assets/Works/ShifoWebsite/Success.svg"
 // Imported images
-import shifoMockup from '@/assets/Works/ShifoWebsite/shifoMockup.png'
+import shifoMockup from '@/assets/Works/ShifoWebsite/ShifoMockup.png'
 import busyPeople from "@/assets/Works/ShifoWebsite/Busy-people.png"
 import sketch from "@/assets/Works/ShifoWebsite/Sketch.png"
 import wireframe from "@/assets/Works/ShifoWebsite/Wireframe-Shifo.png"
