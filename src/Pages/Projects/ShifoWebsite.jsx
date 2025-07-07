@@ -34,7 +34,7 @@ export default function ShifoWebsite() {
                     <p className='project-description'>The goal was to present Shifo’s digital health solutions in a clear and engaging way, making it easy for high-level stakeholders and potential investors to quickly grasp the impact and value of the products.</p>
                 </section>
                 {/* Users */}
-                <section className='flex md:flex-row flex-col w-[80vw] bg-gray-100 p-4 gap-2 rounded-2xl'>
+                <section className='flex xl:flex-row flex-col w-[80vw] bg-gray-100 p-4 gap-2 rounded-2xl'>
                     <section className="flex flex-col w-auto gap-4">
                         <h3 className='project-subtitle'>Who are the users of this website?</h3>
                         <p className='project-description'>As Shifo Foundation develops solutions that transform healthcare systems in low-resource countries, the website is primarily aimed at <span className="font-bold"> high-level decision-makers from health ministries</span> and <span className="font-bold">international organizations like the World Bank.</span></p>
@@ -50,7 +50,7 @@ export default function ShifoWebsite() {
                             </ul>
                         </p>
                     </section>
-                    <img src={busyPeople} alt="Busy people" className="w-[40%] rounded-xl" />
+                    <img src={busyPeople} alt="Busy people" className="w-full xl:w-[40%] rounded-xl" />
                 </section>
                 {/* The challange */}
                 <section className='flex md:flex-row flex-col w-[80vw] bg-white p-4 gap-2 rounded-2xl'>
@@ -60,51 +60,46 @@ export default function ShifoWebsite() {
                     <h3 className='project-description-white'>Shifo’s solutions are inherently complex, involving multiple user roles and interconnected workflows across the healthcare system.</h3>
                 </section>
                 {/* The road to overcome the challenge */}
-                <section className="flex flex-col w-[80vw] gap-10 rounded-2xl bg-gray-100 p-4">
-                    <section className='flex flex-col w-[80vw] gap-2 rounded-2xl'>
-                        <h3 className="project-subtitle">The road to overcome the challenge!</h3>
-                        <p className='project-description'>During our <span className="font-bold">weekly catch-ups with stakeholders</span>, we took the chance to <span className="font-bold">try out different presentation approaches</span> to figure out what clicks best with the audience.</p>
+                <section className="flex flex-col bg-gray-100 w-[80vw] p-4 rounded-2xl gap-4">
+                    <h3 className="project-subtitle">The road to overcome the challenge!</h3>
+                    <p className='project-description'>During our <span className="font-bold">weekly catch-ups with stakeholders</span>, we took the chance to <span className="font-bold">try out different presentation approaches</span> to figure out what clicks best with the audience.
+                    </p>
+                    {/* Failed approaches */}
+                    <section className="flex xl:flex-row flex-col gap-4 w-full">
+                        {/* 1st approach */}
+                        <section className="flex flex-col xl:w-1/3 w-full border border-[#D15C4C] p-4 rounded-xl">
+                            <img src={errorIcon} alt="Error icon" className="w-[3rem]" />
+                            <p className="project-description">
+                                <span className="font-bold">Describing the solution A-Z</span> <br />
+                                In this approach we presented the solution from A to Z and at the end showed the real working app
+                            </p>
+                        </section>
+                        {/* 2nd approach */}
+                        <section className="flex flex-col xl:w-1/3 w-full border border-[#D15C4C] p-4 rounded-xl">
+                            <img src={errorIcon} alt="Error icon" className="w-[3rem]" />
+                            <p className="project-description">
+                                <span className="font-bold">Showing the Hi-fi prototype</span> <br />
+                                In the 2nd approach we tried presenting the Hi-fi prototype with simplified information to avoid audience from confusion
+                            </p>
+                        </section>
+                        {/* 3rd approach */}
+                        <section className="flex flex-col xl:w-1/3 w-full border border-[#D15C4C] p-4 rounded-xl">
+                            <img src={errorIcon} alt="Error icon" className="w-[3rem]" />
+                            <p className="project-description">
+                                <span className="font-bold">Going over the most simplified presentations</span> <br />
+                                We tried to make the flow as simple as possible by removing the unnecessary details from the presentation but still keeping the main idea intact.
+                            </p>
+                        </section>
                     </section>
-                    {/* Presentation approaches */}
-                    <section className='flex flex-col w-[80vw]  gap-4 rounded-2xl'>
-                        <h3 className='project-subtitle'>Failed approaches:</h3>
-                        <section className="flex md:flex-row flex-wrap flex-col gap-4">
-                            {/* Approach 1 */}
-                            <div className="flex flex-row gap-2 items-start bg-white border border-[#D15C4C] p-4 rounded-2xl md:w-[32%]">
-                                <img src={errorIcon} alt="Error icon" />
-                                <p className="project-description">
-                                    <span className="font-bold">Describing the solution A-Z</span> <br />
-                                    In this approach we presented the solution from A to Z and at the end showed the real working app
-                                </p>
-                            </div>
-                            {/* Approach 2 */}
-                            <div className="flex flex-row gap-2 items-start bg-white border border-[#D15C4C] p-4 rounded-2xl md:w-[32%]">
-                                <img src={errorIcon} alt="Error icon" />
-                                <p className="project-description">
-                                    <span className="font-bold">Showing the Hi-fi prototype</span> <br />
-                                    In the 2nd approach we tried presenting the Hi-fi prototype with simplified information to avoid audience from confusion
-                                </p>
-                            </div>
-                            {/* Approach 3 */}
-                            <div className="flex flex-row gap-2 items-start bg-white border border-[#D15C4C] p-4 rounded-2xl md:w-[32%]">
-                                <img src={errorIcon} alt="Error icon" />
-                                <p className="project-description">
-                                    <span className="font-bold">Going over the most simplified presentations</span> <br />
-                                    We tried to make the flow as simple as possible by removing the unnecessary details from the presentation but still keeping the main idea intact.
-                                </p>
-                            </div>
-                            <h3 className='py-10 text-[#D15C4C] text-center'>None of these approaches worked, <br />because the audience were failing to put themselves in the shoes of the real users!</h3>
-                            <section className="flex md:flex-row flex-wrap flex-col gap-4 justify-center w-full">
-                                <h3 className='project-subtitle'>Approach that worked:</h3>
-                                {/* Approach that worked */}
-                                <div className="flex flex-row gap-2 items-start bg-white border border-[#69caa9] p-4 rounded-2xl">
-                                    <img src={successIcon} alt="Error icon" />
-                                    <p className="project-description">
-                                        <span className="font-bold">Story telling!</span> <br />
-                                        Instead of just describing app's features, we decided to tell stories of the users and how the app would help them!
-                                    </p>
-                                </div>
-                            </section>
+                    <h3 className='py-10 text-[#D15C4C] text-center'>None of these approaches worked, <br />because the audience were failing to put themselves in the shoes of the real users!</h3>
+                    <section className="flex flex-col gap-4">
+                        <h3 className='project-subtitle'>Approach that worked:</h3>
+                        <section className="flex flex-col w-full border border-[#69caa9] p-4 rounded-xl bg-white">
+                            <img src={successIcon} alt="Error icon" className="w-[3rem]" />
+                            <p className="project-description">
+                                <span className="font-bold">Story telling!</span> <br />
+                                Instead of just describing app's features, we decided to tell stories of the users and how the app would help them!
+                            </p>
                         </section>
                     </section>
                 </section>
