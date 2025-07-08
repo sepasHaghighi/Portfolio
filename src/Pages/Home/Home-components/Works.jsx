@@ -32,8 +32,8 @@ function Tile(props) {
             <div className='hidden tile sm:flex sm:w-[30rem] h-auto p-4 bg-[#ffffff] rounded-2xl flex-col sm:gap-4'>
                 <section className="flex flex-row items-center justify-between">
                     <h5 className="text-2xl font-medium">{props.title}</h5>
-                    {props.organization!='' && <section className="flex flex-row gap-2 items-center">
-                        <h6 className="text-lg">Organization:</h6>
+                    {props.organization!='#' && <section className="flex flex-row gap-2 items-center">
+                        <h6 className="text-lg">Org:</h6>
                         <section className="flex flex-row gap-1 items-center">
                             <img src={props.organizationLogo} alt="organization logo" className="w-6 h-6" />
                             <span className="text-md">{props.organization}</span>

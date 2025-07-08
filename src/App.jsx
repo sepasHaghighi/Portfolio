@@ -7,7 +7,7 @@ import Pizzamize from './Pages/Projects/Pizzamize';
 import ShifoWebsite from './Pages/Projects/ShifoWebsite';
 
 const routes = projectData.map(project => {
-    if(project.title=="Sheypoor" || project.title=="StoreHub")
+    if(project.title=="Sheypoor" || project.title=="StoreHub POS")
     return <Route path={`/${project.title}`} element= {<ProjectTemplate project={project} />} />
 })
 

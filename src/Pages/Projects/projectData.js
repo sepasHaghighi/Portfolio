@@ -4,8 +4,9 @@ import SheypoorImage from "../../assets/Works/Sheypoor/Sheypoor.jpeg"
 import SheypoorPDF from "@/assets/Works/Sheypoor/Sheypoor.pdf"
 import PizzamizeImage from "../../assets/Works/Pizzamize/Pizzamize.png"
 import PizzamizePDF from "@/assets/Works/Pizzamize/Pizzamize.pdf"
-import StoreHubImage from "../../assets/Works/StoreHub/StoreHub.jpg"
+import StoreHubImage from "../../assets/Works/StoreHub/StoreHub.png"
 import StoreHubPDF from "@/assets/Works/StoreHub/StoreHub.pdf"
+import StoreHubLogo from "@/assets/Works/StoreHub/StoreHubLogo.jpeg"
 import ShifoLogo from "@/assets/ShifoLogo.png"
 import ShifoImage from "@/assets/Works/ShifoWebsite/ShifoImg.jpg"
 import PalmerBetLogo from "@/assets/PalmerBetLogo.png"
@@ -35,7 +36,7 @@ export const projectData = [
         liveDemo: "https://sepashaghighi.github.io/Lineout/",
         figma: "#",
         description: `A virtual queueing solution that lets users join lines remotely, track wait times in real time, and receive notifications when it's their turn.`,
-        organization: "",
+        organization: "#",
         organizationLogo: null,
         skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'UI Design', 'React', 'Tailwind']
     },
@@ -48,7 +49,7 @@ export const projectData = [
         liveDemo: "#",
         figma: "#",
         description: `Pizzamize is a restaurant aiming to promote food customization based on customers' taste preferences.`,
-        organization: "",
+        organization: "#",
         organizationLogo: null,
         skills: ['Persona', 'Information Architecture', 'Wireframing', 'Prototyping', ' Treejack Testing', 'UI Design']
     },
@@ -60,22 +61,22 @@ export const projectData = [
         github: "#",
         liveDemo: "#",
         figma: "#",
-        description: `This is a brief description of the project. This is a brief description of the project.`,
-        organization: "",
+        description: `Redesigned the Sheypoor website to improve usability, visual consistency, and user flow efficiency.`,
+        organization: "#",
         organizationLogo: null,
         skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'Visual & Interaction Design']
     },
     {
         id: "project-4",
-        title: "StoreHub",
+        title: "StoreHub POS",
         img: StoreHubImage,
         pdf: StoreHubPDF,
         github: "#",
         liveDemo: "#",
         figma: "#",
-        description: `This is a brief description of the project. This is a brief description of the project.`,
-        organization: "",
-        organizationLogo: null,
+        description: `An app that digitizes kitchen displays to improve efficiency and ease restaurant management.`,
+        organization: "StoreHub",
+        organizationLogo: StoreHubLogo,
         skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'Visual & Interaction Design']
     },
     
