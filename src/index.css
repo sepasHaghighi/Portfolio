@@ -55,12 +55,13 @@ h3{
 }
 
 p {
-  font-size: 24px;
+  font-size: 1.125rem;
   text-align: left;
   font-weight: 200;
   letter-spacing: .5px;
   width: 100%;
   margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 a{
