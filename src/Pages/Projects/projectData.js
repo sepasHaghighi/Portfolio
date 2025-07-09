@@ -11,10 +11,24 @@ import ShifoLogo from "@/assets/ShifoLogo.png"
 import ShifoImage from "@/assets/Works/ShifoWebsite/ShifoImg.jpg"
 import PalmerBetLogo from "@/assets/PalmerBetLogo.png"
 import TeamyarLogo from "@/assets/TeamyarLogo.png"
+import StockAppImage from "@/assets/Works/Stock-management-app/Stock-app-3.jpg"
 
 export const projectData = [
     {
-        id: "project-0",
+        id: "project-1",
+        title: "Stock management app",
+        img: StockAppImage,
+        pdf: null,
+        github: "",
+        liveDemo: "https://youtube.com/playlist?list=PLRA4ioaTxcm_LzcOcX0zOBhLIzAex_m-P&si=EX9p-iNNqs6hmKhu",
+        figma: "https://www.figma.com/design/t6xLMzDqjk9zVotvUK2yO9/Stock-management-app?node-id=5929-146586&t=XecRpUWi5U4z1MM3-1",
+        description: "A data-driven inventory tool that enhances stock availability, reduces wastes, and incentivizes users for performance.",
+        organization: "Shifo",
+        organizationLogo: ShifoLogo,
+        skills: ['Product Research', 'Flow Analysis', 'Wireframing', 'Prototyping', 'Testing', 'Visual Design']
+    },
+    {
+        id: "project-2",
         title: "Shifo website",
         img: ShifoImage,
         pdf: null,
@@ -28,7 +42,7 @@ export const projectData = [
    
     },
     {
-        id: "project-1",
+        id: "project-3",
         title: "Lineout",
         img: LineoutImage,
         pdf: LineoutPDF,
@@ -41,7 +55,7 @@ export const projectData = [
         skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'UI Design', 'React', 'Tailwind']
     },
     {
-        id: "project-3",
+        id: "project-4",
         title: "Pizzamize",
         img: PizzamizeImage,
         pdf: PizzamizePDF,
@@ -54,7 +68,7 @@ export const projectData = [
         skills: ['Persona', 'Information Architecture', 'Wireframing', 'Prototyping', ' Treejack Testing', 'UI Design']
     },
     {
-        id: "project-2",
+        id: "project-5",
         title: "Sheypoor",
         img: SheypoorImage,
         pdf: SheypoorPDF,
@@ -67,7 +81,7 @@ export const projectData = [
         skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'Visual & Interaction Design']
     },
     {
-        id: "project-4",
+        id: "project-6",
         title: "StoreHub POS",
         img: StoreHubImage,
         pdf: StoreHubPDF,

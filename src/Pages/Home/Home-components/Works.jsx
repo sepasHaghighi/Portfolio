@@ -8,7 +8,7 @@ function Tile(props) {
             {/* Small screen layout */}
             <div className='sm:hidden tile w-full h-[20.1875remß] p-4 bg-[#ffffff] rounded-2xl flex flex-col gap-2'>
                 <section className="flex flex-row items-center justify-between">
-                    <h5 className="text-2xl font-medium text-left">{props.title}</h5>
+                    <h5 className="text-lg font-medium text-left">{props.title}</h5>
                     {props.organization!='#' && <section className="flex flex-row gap-2 items-center">
                         <h6 className="text-lg">Org:</h6>
                         <section className="flex flex-row gap-1 items-center">
