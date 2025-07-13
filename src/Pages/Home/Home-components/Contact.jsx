@@ -39,7 +39,7 @@ const contactList = contactItems.map((item) => {
 
 export default function Contact() {
     return (
-            <div className='contact h-[95vh] w-[100%] flex flex-col justify-center' id='contact'>
+            <div className='contact h-[95vh] w-[100%] flex flex-col justify-center border-t border-gray-300' id='contact'>
                 <h2>CONTACT ME.</h2>
                 {contactList}
             </div>

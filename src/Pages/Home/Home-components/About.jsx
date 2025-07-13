@@ -1,7 +1,7 @@
 //
 export default function About() {
     return (
-        <div className='about h-[100vh] flex flex-col justify-center' id='about'>
+        <div className='about h-[100vh] flex flex-col justify-center border-t border-gray-300' id='about'>
             <h2>ABOUT ME.</h2>
             <p>Hi, I'm Sepas — a UX Engineer specializing in ERP systems and their integration with health management platforms like Results-Based Financing (RBF) systems, stock management solutions, SaaS platforms, and game management systems.</p>
             <br />

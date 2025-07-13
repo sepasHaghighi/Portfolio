@@ -6,7 +6,7 @@ function Tile(props) {
     return (
         <a href={`/${props.title}`}>
             {/* Small screen layout */}
-            <div className='sm:hidden tile w-full h-[20.1875remß] p-4 bg-[#ffffff] rounded-2xl flex flex-col gap-2'>
+            <div className='sm:hidden tile w-full h-[20.1875remß] p-4 bg-[#ffffff] rounded-2xl flex flex-col gap-2 border border-gray-300'>
                 <section className="flex flex-row items-center justify-between">
                     <h5 className="text-lg font-medium text-left">{props.title}</h5>
                     {props.organization!='#' && <section className="flex flex-row gap-2 items-center">
@@ -29,7 +29,7 @@ function Tile(props) {
                 </section>
             </div>
             {/* Large screen layout */}
-            <div className='hidden tile sm:flex sm:w-[30rem] h-auto p-4 bg-[#ffffff] rounded-2xl flex-col sm:gap-4'>
+            <div className='hidden tile sm:flex sm:w-[30rem] h-auto p-4 bg-[#ffffff] rounded-2xl flex-col sm:gap-4 border border-gray-300'>
                 <section className="flex flex-row items-center justify-between">
                     <h5 className="text-2xl font-medium">{props.title}</h5>
                     {props.organization!='#' && <section className="flex flex-row gap-2 items-center">
@@ -65,7 +65,7 @@ const projectTiles = projectData.map((project) => {
 // Component to create the Works section
 export default function Works() {
     return (
-        <div className='works w-[100%] h-[90%] pt-20 flex flex-col  justify-center gap-[10vh]' id="work">
+        <div className='works w-[100%] h-[90%] pt-20 pb-20 flex flex-col  justify-center gap-[10vh] border-t border-gray-300' id="work">
             <section className="flex flex-col gap-0">
                 <h2>WORK SHOWCASE.</h2>
                 <p>Here are some of the projects I've worked on.</p>

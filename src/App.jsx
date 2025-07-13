@@ -19,7 +19,7 @@ export default function App() {
             <Route path="/lineout" element={<Lineout />} />
             <Route path="/pizzamize" element={<Pizzamize />} />
             <Route path="/shifo website" element={<ShifoWebsite />} />
-            <Route path="/stock management app" element={<StockApp />} />
+            <Route path="/inventory app" element={<StockApp />} />
             {routes}
         </Routes>
     )

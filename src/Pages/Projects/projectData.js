@@ -16,7 +16,7 @@ import StockAppImage from "@/assets/Works/Stock-management-app/Stock-app-3.jpg"
 export const projectData = [
     {
         id: "project-1",
-        title: "Stock management app",
+        title: "Inventory app",
         img: StockAppImage,
         pdf: null,
         github: "",

@@ -15,7 +15,7 @@ export default function StockApp() {
             <ProjectHeader />
             {/* Title bar with Figma, Github, live demo links */}
             <div id="project-head" className="flex flex-row justify-between w-[100vw] px-4 sticky py-4 top-22 bg-white border-t border-t-gray-200 sm:w-[100vw] lg:px-48 shadow">
-                <h3 id="project-title" className="text-left font-normal">Stock Management App</h3>
+                <h3 id="project-title" className="text-left font-normal">Inventory App</h3>
                 <section id="project-links" className="flex flex-row gap-4 sm:gap-8 items-center">
                     <a href='https://www.figma.com/design/t6xLMzDqjk9zVotvUK2yO9/Stock-management-app?node-id=5929-146586&t=XecRpUWi5U4z1MM3-1' target="blank" id="figma-link"><img src={figmaIcon} alt="Figma" className="min-w-5 sm:w-6" /></a>
                     <a href='https://youtube.com/playlist?list=PLRA4ioaTxcm_LzcOcX0zOBhLIzAex_m-P&si=EX9p-iNNqs6hmKhu' target="blank" id="liveDemo-link" className="whitespace-nowrap">Demo</a>
@@ -28,12 +28,12 @@ export default function StockApp() {
                 {/* Why do we need this app? */}
                 <section className='flex flex-col w-[80vw] bg-white gap-2 rounded-2xl'>
                     <h3 className='project-subtitle'>Why do we need this app?</h3>
-                    <p className='project-description'>Every year, millions of donated medicines and funds are wasted due to paper-based stock management and lack of real-time data collection, causing expiries and stock-outs. This app digitizes the process, enabling live tracking and data reliability for smarter, cost-effective distribution.</p>
+                    <p className='project-description'>Every year, millions of donated medicines and funds are wasted due to paper-based Inventory management and lack of real-time data collection, causing expiries and stock-outs. This app digitizes the process, enabling live tracking and data reliability for smarter, cost-effective distribution.</p>
                 </section>
                 {/* Starting step */}
                 <section className='flex flex-col w-[80vw] bg-gray-50 p-4 gap-2 rounded-2xl'>
                     <section className="flex flex-col w-auto gap-4">
-                        <h3 className='project-subtitle'>First step: Getting to know the current stock management context</h3>
+                        <h3 className='project-subtitle'>First step: Getting to know the current Inventory management context</h3>
                         <p className='project-description'>Improvement starts with deep understanding. That’s why the team began by thoroughly investigating the existing system to identify its flaws.</p>
                     </section>
                     {/* Steps taken */}

@@ -22,7 +22,11 @@ html {
 }
 
 .nav, .hero, .works, .about, .contact{
-  max-width: 480px;
+  max-width: 516px;
+  border-left: #ddd solid 1px;
+  border-right: #ddd solid 1px;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 .material-symbols-rounded {
   font-size: 40px;
@@ -78,9 +82,9 @@ a:hover{
   opacity: 0.8; /* slightly fade */
 }
 
-div.tile{
+/* div.tile{
   box-shadow: rgba(99, 99, 99, 0.15) 0px 1px 4px 0px;
-}
+} */
 
 .project-subtitle{
   font-size: 2rem;
