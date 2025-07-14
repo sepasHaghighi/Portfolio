@@ -78,8 +78,9 @@ a{
 }
 
 a:hover{
-  transform: scale(1.15); /* slightly zoom in */
+  transform: scale(1.05); /* slightly zoom in */
   opacity: 0.8; /* slightly fade */
+  cursor: pointer;
 }
 
 /* div.tile{
