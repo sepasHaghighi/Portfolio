@@ -146,5 +146,11 @@ a:hover{
   a{
     font-size: 14px;
   }
+  .nav, .hero, .works, .about, .contact{
+  max-width: 95%;
+  }
+  #root {
+  padding: 0;
+}
 }
 
