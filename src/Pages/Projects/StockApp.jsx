@@ -15,7 +15,7 @@ export default function StockApp() {
             <ProjectHeader />
             {/* Title bar with Figma, Github, live demo links */}
             <div id="project-head" className="flex flex-row justify-between w-[100vw] px-4 sticky py-4 top-22 bg-white border-t border-t-gray-200 sm:w-[100vw] lg:px-48 shadow">
-                <h3 id="project-title" className="text-left font-normal">Inventory App</h3>
+                <h3 id="project-title" className="text-left font-normal">Stock management App</h3>
                 <section id="project-links" className="flex flex-row gap-4 sm:gap-8 items-center">
                     <a href='https://www.figma.com/design/t6xLMzDqjk9zVotvUK2yO9/Stock-management-app?node-id=5929-146586&t=XecRpUWi5U4z1MM3-1' target="blank" id="figma-link"><img src={figmaIcon} alt="Figma" className="min-w-5 sm:w-6" /></a>
                     <a href='https://youtube.com/playlist?list=PLRA4ioaTxcm_LzcOcX0zOBhLIzAex_m-P&si=EX9p-iNNqs6hmKhu' target="blank" id="liveDemo-link" className="whitespace-nowrap">Demo</a>
@@ -176,11 +176,56 @@ export default function StockApp() {
                 {/* Third step: Mapping the suggested flow */}
                 <section className='flex bg-gray-50 p-4 rounded-2xl flex-col w-[80vw] gap-2'>
                     <section className="flex flex-col w-auto gap-4">
-                        <h3 className='project-subtitle'>Third step: Mapping the suggested flow</h3>
-                        <p className='project-description'>Based on our understanding, and after discussing the issues with devs, healthcare workers, business owners and stakeholder we came up with the new user journey.
+                        <h3 className='project-subtitle'>Third step: Mapping the suggested user journey and app structure</h3>
+                        <p className='project-description'>Based on our understanding, and after discussing the issues with devs, healthcare workers, business owners and stakeholder we came up with the product structure.
                         </p>
                     </section>
                     <img src={NewUserJourney} alt="Busy people" className="w-full" />
+                </section>
+                {/* fourth step: Working out the UI */}
+                <section className='flex flex-col w-[80vw] gap-2'>
+                    <section className="flex flex-col w-auto gap-4">
+                        <h3 className='project-subtitle'>Fourth step: Working out the User Interface</h3>
+                        <p className='project-description'>
+                            Since we were working within the company’s design system, we skipped wireframing and moved directly to high-fidelity designs. <br />
+                            For over six months, we held weekly sessions to review design details and ensure the product was intuitive and accessible for digitally inexperienced users. <br />
+                            Numerous iterations and rethinks were made before arriving at the final  design; <strong> a hybrid design resilient to infrastructure limitations, functional with or without internet access or electricity.</strong>
+                        </p>
+                    </section>
+                    {/* Figma iFrame */}
+                    <div className="w-auto border border-gray-200 rounded-xl shadow-md overflow-hidden">
+                        <iframe
+                            className="w-full h-[25rem] md:h-[35rem]"
+                            src="https://embed.figma.com/design/t6xLMzDqjk9zVotvUK2yO9/Stock-management-app?node-id=5929-146586&embed-host=share"
+                            allowFullScreen
+                        ></iframe>
+                    </div>
+                </section>
+                {/* Sixth step: Impact of the product */}
+                <section className='flex bg-gray-50 p-4 rounded-2xl flex-col w-[80vw] gap-2 mb-8'>
+                    <section className="flex flex-col w-auto gap-4">
+                        <h3 className='project-subtitle'>Impact of the product</h3>
+                        <section className="flex xl:grid grid-cols-3 gap-4">
+                            {/* 1st box */}
+                            <section className="flex flex-col gap-2 p-4 border border-[#36d89d] rounded-xl items-center">
+                                <p className="project-description">
+                                    Millions of dollars saved in paper wastage.
+                                </p>
+                            </section>
+                            {/* 2nd box */}
+                            <section className="flex flex-col gap-2 p-4 border border-[#36d89d] rounded-xl items-center">
+                                <p className="project-description">
+                                    Health workers satisfaction raised by 60%.
+                                </p>
+                            </section>
+                            {/* 3rd box */}
+                            <section className="flex flex-col gap-2 p-4 border border-[#36d89d] rounded-xl items-center">
+                                <p className="project-description">
+                                    Measurable performance thanks to data digitization and KPIs.
+                                </p>
+                            </section>
+                        </section>
+                    </section>
                 </section>
             </main>
             <Footer />

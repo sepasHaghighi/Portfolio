@@ -7,16 +7,18 @@ import PizzamizePDF from "@/assets/Works/Pizzamize/Pizzamize.pdf"
 import StoreHubImage from "../../assets/Works/StoreHub/StoreHub.png"
 import StoreHubPDF from "@/assets/Works/StoreHub/StoreHub.pdf"
 import StoreHubLogo from "@/assets/Works/StoreHub/StoreHubLogo.jpeg"
+import DesignLensThumbnail from "@/assets/Works/DesignLens/DesignLensThumbnail.jpg"
 import ShifoLogo from "@/assets/ShifoLogo.png"
 import ShifoImage from "@/assets/Works/ShifoWebsite/ShifoImg.jpg"
 import PalmerBetLogo from "@/assets/PalmerBetLogo.png"
 import TeamyarLogo from "@/assets/TeamyarLogo.png"
+import YaamaTechLogo from "@/assets/YaamaTechLogo.png"
 import StockAppImage from "@/assets/Works/Stock-management-app/Stock-app-3.jpg"
 
 export const projectData = [
     {
         id: "project-1",
-        title: "Inventory app",
+        title: "Stock management app",
         img: StockAppImage,
         pdf: null,
         github: "",
@@ -25,10 +27,23 @@ export const projectData = [
         description: "A data-driven inventory tool that enhances stock availability, reduces wastes, and incentivizes users for performance.",
         organization: "Shifo",
         organizationLogo: ShifoLogo,
-        skills: ['Product Research', 'Flow Analysis', 'Wireframing', 'Prototyping', 'Testing', 'Visual Design']
+        skills: ['Product Research', 'Flow Analysis', 'Wireframing', 'Prototyping', 'Testing', 'Visual Design','Presentation']
     },
     {
         id: "project-2",
+        title: "Design lens",
+        img: DesignLensThumbnail,
+        pdf: null,
+        github: "",
+        liveDemo: "https://youtube.com/playlist?list=PLRA4ioaTxcm_LzcOcX0zOBhLIzAex_m-P&si=EX9p-iNNqs6hmKhu",
+        figma: "#",
+        description: "A Chrome extension that lets developers and designers overlay Figma designs on live sites to visually compare them.",
+        organization: "Yaama Tech",
+        organizationLogo: YaamaTechLogo,
+        skills: ['User interview', 'Ideation', 'Visual Design', 'Vibe coding', 'Testing' ]
+    },
+    {
+        id: "project-3",
         title: "Shifo website",
         img: ShifoImage,
         pdf: null,
@@ -42,7 +57,7 @@ export const projectData = [
    
     },
     {
-        id: "project-3",
+        id: "project-4",
         title: "Lineout",
         img: LineoutImage,
         pdf: LineoutPDF,
@@ -55,7 +70,7 @@ export const projectData = [
         skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'UI Design', 'React', 'Tailwind']
     },
     {
-        id: "project-4",
+        id: "project-5",
         title: "Pizzamize",
         img: PizzamizeImage,
         pdf: PizzamizePDF,
@@ -68,7 +83,7 @@ export const projectData = [
         skills: ['Persona', 'Information Architecture', 'Wireframing', 'Prototyping', ' Treejack Testing', 'UI Design']
     },
     {
-        id: "project-5",
+        id: "project-6",
         title: "Sheypoor",
         img: SheypoorImage,
         pdf: SheypoorPDF,
@@ -81,7 +96,7 @@ export const projectData = [
         skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'Visual & Interaction Design']
     },
     {
-        id: "project-6",
+        id: "project-7",
         title: "StoreHub POS",
         img: StoreHubImage,
         pdf: StoreHubPDF,

@@ -70,7 +70,7 @@ export default function Works() {
                 <h2>WORK SHOWCASE.</h2>
                 <p>Here are some of the projects I've worked on.</p>
             </section>
-            <section className='flex flex-col gap-8'>
+            <section className='flex flex-col gap-8 sm:gap-4'>
                 {projectTiles}
             </section>
         </div>
