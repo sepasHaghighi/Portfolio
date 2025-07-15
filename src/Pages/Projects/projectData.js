@@ -24,7 +24,7 @@ export const projectData = [
         github: "",
         liveDemo: "https://youtube.com/playlist?list=PLRA4ioaTxcm_LzcOcX0zOBhLIzAex_m-P&si=EX9p-iNNqs6hmKhu",
         figma: "https://www.figma.com/design/t6xLMzDqjk9zVotvUK2yO9/Stock-management-app?node-id=5929-146586&t=XecRpUWi5U4z1MM3-1",
-        description: "A data-driven inventory tool that enhances stock availability, reduces wastes, and incentivizes users for performance.",
+        description: "A data-driven stock management app that enhances stock availability, reduces wastes, and incentivizes users for performance.",
         organization: "Shifo",
         organizationLogo: ShifoLogo,
         skills: ['Product Research', 'Flow Analysis', 'Wireframing', 'Prototyping', 'Testing', 'Visual Design','Presentation']
@@ -37,7 +37,7 @@ export const projectData = [
         github: "",
         liveDemo: "https://youtube.com/playlist?list=PLRA4ioaTxcm_LzcOcX0zOBhLIzAex_m-P&si=EX9p-iNNqs6hmKhu",
         figma: "#",
-        description: "A Chrome extension that lets developers and designers overlay Figma designs on live sites to visually compare them.",
+        description: "A Chrome extension that lets developers and designers overlay Figma designs on live sites to visually compare them and post comments.",
         organization: "Yaama Tech",
         organizationLogo: YaamaTechLogo,
         skills: ['User interview', 'Ideation', 'Visual Design', 'Vibe coding', 'Testing' ]

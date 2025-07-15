@@ -6,6 +6,7 @@ import Lineout from './Pages/Projects/Lineout';
 import Pizzamize from './Pages/Projects/Pizzamize';
 import ShifoWebsite from './Pages/Projects/ShifoWebsite';
 import StockApp from './Pages/Projects/StockApp';
+import DesignLens from './Pages/Projects/DesignLens';
 
 const routes = projectData.map(project => {
     if(project.title=="Sheypoor" || project.title=="StoreHub POS")
@@ -20,6 +21,7 @@ export default function App() {
             <Route path="/pizzamize" element={<Pizzamize />} />
             <Route path="/shifo website" element={<ShifoWebsite />} />
             <Route path="/stock management app" element={<StockApp />} />
+            <Route path="/design lens" element={<DesignLens />} />
             {routes}
         </Routes>
     )
