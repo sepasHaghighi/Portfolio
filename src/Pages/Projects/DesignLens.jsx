@@ -10,7 +10,7 @@ import designerImg from "@/assets/Works/DesignLens/Designer.png"
 import developerImg from "@/assets/Works/DesignLens/Developer.png"
 import newFlow from "@/assets/Works/DesignLens/NewFlow.svg"
 import finalUI from "@/assets/Works/DesignLens/FinalDesignLens.png"
-import userImg from "@/assets/Works/DesignLens/User.jpg"
+import userImg from "@/assets/Works/DesignLens/User1.jpg"
 import userImg2 from "@/assets/Works/DesignLens/User2.jpg"
 
 export default function DesignLens() {
