@@ -2,7 +2,7 @@ import emailIcon from '@/assets/email.png'
 import linkedinIcon from '@/assets/linkedin.png'
 export default function ProjectHeader() {
     return (
-        < nav id="header" className="bg-white sticky top-0 pt-12 pb-10 h-12 w-full flex justify-between items-center" >
+        < nav id="header" className="bg-white sticky top-0 pt-12 pb-10 px-4 h-12 w-full flex justify-between items-center">
             <section id="back">
                 <a href="/" className="flex flex-row gap-2 items-center">
                     <span className="material-symbols-rounded">

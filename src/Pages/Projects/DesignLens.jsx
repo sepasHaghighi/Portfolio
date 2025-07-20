@@ -12,6 +12,14 @@ import newFlow from "@/assets/Works/DesignLens/NewFlow.svg"
 import finalUI from "@/assets/Works/DesignLens/FinalDesignLens.png"
 import userImg from "@/assets/Works/DesignLens/User1.jpg"
 import userImg2 from "@/assets/Works/DesignLens/User2.jpg"
+import oldFlow1 from "@/assets/Works/DesignLens/Old-1.svg"
+import oldFlow2 from "@/assets/Works/DesignLens/Old-2.svg"
+import oldFlow3 from "@/assets/Works/DesignLens/Old-3.svg"
+import oldFlow4 from "@/assets/Works/DesignLens/Old-4.svg"
+import oldFlow5 from "@/assets/Works/DesignLens/Old-5.svg"
+import arrow from "@/assets/Works/DesignLens/Arrow.svg"
+import wireframeInterface from "@/assets/Works/DesignLens/Wireframe-Interface.svg"
+import wireframeBrowser from "@/assets/Works/DesignLens/Wireframe-Browser.svg"
 
 export default function DesignLens() {
     return (
@@ -38,17 +46,21 @@ export default function DesignLens() {
                 {/* Old flow */}
                 <section className='flex flex-col w-[80vw] bg-gray-50 p-4 gap-8 rounded-2xl'>
                     <h3 className='project-subtitle'>Old flow</h3>
-                    <section className="flex flex-row justify-center">
-                        <img src={currentFlow} alt="Current flow" className="rounded-xl w-9/10" />
+                    <section className="flex lg:flex-row flex-col justify-between lg:gap-4 gap-4 lg:items-start">
+                        <img src={oldFlow1} alt="Current flow 1" className="lg:w-1/6 w-full" />
+                        <img src={oldFlow2} alt="Current flow 2" className="lg:w-1/6 w-full" />
+                        <img src={oldFlow3} alt="Current flow 3" className="lg:w-1/6 w-full" />
+                        <img src={oldFlow4} alt="Current flow 4" className="lg:w-1/6 w-full" />
+                        <img src={oldFlow5} alt="Current flow 5" className="lg:w-1/6 w-full" />
                     </section>
                 </section>
                 {/* User pain points */}
                 <section className="flex flex-col gap-4 bg-gray-50 p-4 rounded-2xl w-[80vw]">
                     <h3 className='project-subtitle'>User pain points</h3>
                     {/* Designers */}
-                    <section className="flex xl:flex-row flex-col w-[80vw] gap-4">
-                        <img src={designerImg} alt="Image of a designer" className="w-1/4 rounded-xl" />
-                        <p className="project-description">
+                    <section className="flex xl:flex-row flex-col gap-4">
+                        <img src={designerImg} alt="Image of a designer" className= "lg:w-1/3 rounded-xl" />
+                        <p className="project-description w-full">
                             <span className="font-medium">
                                 Designers:
                             </span>
@@ -60,8 +72,8 @@ export default function DesignLens() {
                         </p>
                     </section>
                     {/* Developer */}
-                    <section className="flex xl:flex-row flex-col w-[80vw] gap-4">
-                        <img src={developerImg} alt="Image of a developer" className="w-1/4 rounded-xl" />
+                    <section className="flex lg:flex-row flex-col gap-4">
+                        <img src={developerImg} alt="Image of a developer" className="lg:w-1/3 rounded-xl" />
                         <p className="project-description">
                             <span className="font-medium">
                                 Developer:
@@ -75,8 +87,9 @@ export default function DesignLens() {
                 {/* New flow */}
                 <section className="flex flex-col w-[80vw] gap-8">
                     <h3 className='project-subtitle'>A new flow to deal with design reviews</h3>
-                    <section className="flex flex-row justify-center">
-                        <img src={newFlow} alt="The new proposed flow" className="border border-gray-200 rounded-xl" />
+                    <section className="flex lg:flex-row flex-col justify-center gap-8">
+                        <img src={wireframeInterface} alt="Wireframe of the product" className="rounded-xl lg:w-1/2 w-full" />
+                        <img src={wireframeBrowser} alt="Wireframe of the product" className=" rounded-xl lg:w-1/2 w-full" />
                     </section>
                 </section>
                 {/* The UI */}
