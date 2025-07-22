@@ -34,12 +34,12 @@ export const projectData = [
         title: "Design lens",
         img: DesignLensThumbnail,
         pdf: null,
-        github: "",
-        liveDemo: "https://youtube.com/playlist?list=PLRA4ioaTxcm_LzcOcX0zOBhLIzAex_m-P&si=EX9p-iNNqs6hmKhu",
+        github: "https://github.com/sepasHaghighi/Design-lens-extension",
+        liveDemo: "#",
         figma: "#",
         description: "A Chrome extension that lets developers and designers overlay Figma designs on live sites to visually compare them and post comments.",
-        organization: "Yaama Tech",
-        organizationLogo: YaamaTechLogo,
+        organization: "#",
+        organizationLogo: null,
         skills: ['User interview', 'Ideation', 'Visual Design', 'Vibe coding', 'Testing' ]
     },
     {
@@ -67,7 +67,7 @@ export const projectData = [
         description: `A virtual queueing solution that lets users join lines remotely, track wait times in real time, and receive notifications when it's their turn.`,
         organization: "#",
         organizationLogo: null,
-        skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'UI Design', 'React', 'Tailwind']
+        skills: ['Research', 'Information Architecture', 'Wireframing', 'Prototyping', 'Testing', 'UI', 'React', 'Tailwind', 'Supabase']
     },
     {
         id: "project-5",

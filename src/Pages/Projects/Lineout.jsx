@@ -32,8 +32,8 @@ export default function Lineout(props) {
                 <h3 id="project-title" className="text-left font-normal">Lineout</h3>
                 <section id="project-links" className="flex flex-row gap-4 sm:gap-8 items-center">
                     {/* <a href='#' target="blank" id="figma-link"><img src={figmaIcon} alt="Figma" className="min-w-5 sm:w-10" /></a> */}
-                    <a href='#' target="blank" id="github-link"><img src={githubIcon} alt="Github" className="min-w-5 sm:w-5" /></a>
-                    <a href='#' target="blank" id="liveDemo-link" className="whitespace-nowrap">Live Demo</a>
+                    <a href='https://github.com/sepasHaghighi/Lineout' target="blank" id="github-link"><img src={githubIcon} alt="Github" className="min-w-5 sm:w-5" /></a>
+                    <a href='https://sepashaghighi.github.io/Lineout/' target="blank" id="liveDemo-link" className="whitespace-nowrap">Live Demo</a>
                 </section>
             </div>
             {/* Main content */}

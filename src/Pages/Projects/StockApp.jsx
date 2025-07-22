@@ -205,23 +205,23 @@ export default function StockApp() {
                 <section className='flex bg-gray-50 p-4 rounded-2xl flex-col w-[80vw] gap-2 mb-8'>
                     <section className="flex flex-col w-auto gap-4">
                         <h3 className='project-subtitle'>Impact of the product</h3>
-                        <section className="flex xl:grid grid-cols-3 gap-4">
+                        <section className="flex xl:flex-row flex-col gap-4">
                             {/* 1st box */}
-                            <section className="flex flex-col gap-2 p-4 border border-[#36d89d] rounded-xl items-center">
+                            <section className="flex flex-col gap-2 p-4 border border-[#36d89d] rounded-xl items-center xl:w-1/3">
                                 <p className="project-description">
-                                    Millions of dollars saved in paper wastage.
+                                    Reduced <strong>21 forms to just 3</strong>; Saving <strong>millions of dollars</strong> worth of paper.
                                 </p>
                             </section>
                             {/* 2nd box */}
-                            <section className="flex flex-col gap-2 p-4 border border-[#36d89d] rounded-xl items-center">
+                            <section className="flex flex-col gap-2 p-4 border border-[#36d89d] rounded-xl items-center xl:w-1/3">
                                 <p className="project-description">
-                                    Health workers satisfaction raised by 60%.
+                                    <strong>60% increase in health worker satisfaction</strong> due to reduced stock issues and smoother workflows.
                                 </p>
                             </section>
                             {/* 3rd box */}
-                            <section className="flex flex-col gap-2 p-4 border border-[#36d89d] rounded-xl items-center">
+                            <section className="flex flex-col gap-2 p-4 border border-[#36d89d] rounded-xl items-center xl:w-1/3">
                                 <p className="project-description">
-                                    Measurable performance thanks to data digitization and KPIs.
+                                    <strong>Improved health facility performance</strong> through better stock tracking and timely supply.
                                 </p>
                             </section>
                         </section>

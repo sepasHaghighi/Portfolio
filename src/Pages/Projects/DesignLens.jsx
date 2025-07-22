@@ -3,12 +3,11 @@ import ProjectHeader from "./project-components/ProjectHeader"
 import Footer from "../Home/Home-components/Footer"
 // Imported icons
 import figmaIcon from "@/assets/figma.png"
+import githubIcon from "@/assets/github.png"
 // Imported images
 import DesignLensBanner from "@/assets/Works/DesignLens/DesignLens.png"
-import currentFlow from "@/assets/Works/DesignLens/CurrentFlow.svg"
 import designerImg from "@/assets/Works/DesignLens/Designer.png"
 import developerImg from "@/assets/Works/DesignLens/Developer.png"
-import newFlow from "@/assets/Works/DesignLens/NewFlow.svg"
 import finalUI from "@/assets/Works/DesignLens/FinalDesignLens.png"
 import userImg from "@/assets/Works/DesignLens/User1.jpg"
 import userImg2 from "@/assets/Works/DesignLens/User2.jpg"
@@ -17,7 +16,6 @@ import oldFlow2 from "@/assets/Works/DesignLens/Old-2.svg"
 import oldFlow3 from "@/assets/Works/DesignLens/Old-3.svg"
 import oldFlow4 from "@/assets/Works/DesignLens/Old-4.svg"
 import oldFlow5 from "@/assets/Works/DesignLens/Old-5.svg"
-import arrow from "@/assets/Works/DesignLens/Arrow.svg"
 import wireframeInterface from "@/assets/Works/DesignLens/Wireframe-Interface.svg"
 import wireframeBrowser from "@/assets/Works/DesignLens/Wireframe-Browser.svg"
 
@@ -30,8 +28,8 @@ export default function DesignLens() {
             <div id="project-head" className="flex flex-row justify-between w-[100vw] px-4 sticky py-4 top-22 bg-white border-t border-t-gray-200 sm:w-[100vw] lg:px-48 shadow">
                 <h3 id="project-title" className="text-left font-normal">Design lens extension</h3>
                 <section id="project-links" className="flex flex-row gap-4 sm:gap-8 items-center">
-                    <a href='https://www.figma.com/design/t6xLMzDqjk9zVotvUK2yO9/Stock-management-app?node-id=5929-146586&t=XecRpUWi5U4z1MM3-1' target="blank" id="figma-link"><img src={figmaIcon} alt="Figma" className="min-w-5 sm:w-6" /></a>
-                    <a href='https://youtube.com/playlist?list=PLRA4ioaTxcm_LzcOcX0zOBhLIzAex_m-P&si=EX9p-iNNqs6hmKhu' target="blank" id="liveDemo-link" className="whitespace-nowrap">Demo</a>
+                    <a href='https://github.com/sepasHaghighi/Design-lens-extension' target="blank" id="figma-link"><img src={githubIcon} alt="Github Icon" className="min-w-5 sm:w-6" /></a>
+                    
                 </section>
             </div>
             {/* Main */}
