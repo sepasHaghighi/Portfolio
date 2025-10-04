@@ -83,6 +83,10 @@ a:hover{
   cursor: pointer;
 }
 
+li{
+  margin-left: 1.5rem;
+}
+
 /* div.tile{
   box-shadow: rgba(99, 99, 99, 0.15) 0px 1px 4px 0px;
 } */
